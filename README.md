@@ -14,35 +14,25 @@
 ## ➤ `Init_User_Data()` ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
 
 ```lua
--- SYSTEM_DIAGNOSTICS: SYSTEM_PROTOCOL_V2.0
 local entity = {
   id_code = "unknown_entity",
   class_role = "Student [Low Battery Mode]",
   languages_loaded = {"C++ (Syntax Error)", "??? (Null Pointer)", "Human (Disconnected)"},
-  
-  -- PRIMARY OBJECTIVE
   current_quest = "Speedrun: Find First Encounter Clue [Any% Glitchless]",
-  
-  -- SYSTEM METRICS
   status_flag = "GRINDING... [XP Gain: 0.01]",
   critical_bugs = {
     "Overthinking_Overflow",
     "Sleep_Deprivation_Stack",
     "Skill_Issue_Dependency"
   },
-  
-  -- UNLOCKED ACHIEVEMENTS
   achievements_log = {
     "[ꪜ] Opened VSCode",
     "[✘] Wrote Code",
-    "[ꪜ] Closed VSCode (Panic)",
-    "[ꪜ] Reopened VSCode (Denial)"
+    "[ꪜ] Closed VSCode",
+    "[ꪜ] Reopened VSCode"
   },
-  
-  -- CORE DUMP STATUS
-  mental_heap = "SEGMENTATION_FAULT (Core Dumped into Sakura Trees)"
+  mental_heap = "SEGMENTATION_FAULT"
 }
-
 print(">> Loading personality modules... FAILED.")
 print(">> Installing charm... NOT FOUND.")
 ```
